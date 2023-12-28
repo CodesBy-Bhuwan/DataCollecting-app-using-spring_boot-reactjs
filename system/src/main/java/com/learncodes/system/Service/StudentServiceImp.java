@@ -18,6 +18,7 @@ public class StudentServiceImp  implements StudentService{
 
     @Override
     public List<Student> getAllStudent() {
-        return studentRepo.findAll();
+        return (List<Student>) studentRepo.findAll();
     }
+
 }

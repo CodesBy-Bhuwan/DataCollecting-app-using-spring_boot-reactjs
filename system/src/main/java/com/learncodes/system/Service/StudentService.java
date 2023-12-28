@@ -7,4 +7,6 @@ import org.hibernate.mapping.List;
 public interface StudentService {
     public Student saveStudent(Student student);
     public List<Student> getAllStudent();
+
+    java.util.List<Student> getAllStudents();
 }

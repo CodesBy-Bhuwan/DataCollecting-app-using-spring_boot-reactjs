@@ -10,6 +10,8 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/student")
+//This cross-origin is to connect FE to BE data
+@CrossOrigin
 public class StudentController {
     @Autowired
     private StudentService studentService;
